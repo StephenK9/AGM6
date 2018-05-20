@@ -7,8 +7,8 @@ import * as d3 from 'd3'
 })
 export class D3ComponentThreeComponent implements OnInit {
   // We are defining these functions in order to reference a function within the ngOnInit lifecycle hook. Variables within methods are stored in memory, just as public and private members of a class are. So if we access functions within methods, we can work with those variables. We need to call the method in order to instantiate the function within it, so it can be stored within a private member of the class. In the case of the ngOnInit method, it is called automatically. Think of a method as a 'mini-class' within the class, with its own 'state'.
-  private fn: Function
-  private fn2: Function
+  public fn: Function
+  public fn2: Function
   public fn3:Function
   constructor() { }
 
