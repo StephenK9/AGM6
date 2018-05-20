@@ -1,0 +1,14 @@
+button {
+    position: static;;
+    top: 10px;
+    left: 10px;
+  }
+  
+  circle {
+    fill: none;
+    stroke: #aaa;
+    stroke-width: 1.5px;
+  }
+  svg{
+      border: 1px solid black;
+  }
