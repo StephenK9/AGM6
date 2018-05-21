@@ -18,7 +18,7 @@ import { D3ComponentThreeComponent } from './d3-component-three/d3-component-thr
   imports: [
     BrowserModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCYH2t8t6OKJcPtPSXiMV23OBStG78msCs'
+      apiKey: environment.googleMapsApi
     }),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule

@@ -7,5 +7,6 @@ export const environment = {
     projectId: "d3app-865c2",
     storageBucket: "",
     messagingSenderId: "264459064376"
-  }
+  },
+  googleMapsApi:'AIzaSyCYH2t8t6OKJcPtPSXiMV23OBStG78msCs'
 };
